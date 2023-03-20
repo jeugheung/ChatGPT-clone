@@ -80,7 +80,9 @@ const handleSubmit = async (e) => {
   const messageDiv = document.getElementById(uniqueId)
 
   // messageDiv.innerHTML = "..."
-  loader(messageDiv)
+  loader(messageDiv);
+  // fetch 
+  const response = await fetch('http://localhost:5500')
 
 
   // clearInterval(loadInterval)
