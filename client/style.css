@@ -24,7 +24,7 @@ body {
 
 #chat_container {
   flex: 1;
-  width: 100%;
+  width: 85%;
   height: 100%;
   overflow-y: scroll;
 
@@ -107,12 +107,12 @@ body {
 }
 
 form {
-  width: 100%;
+  width: 85%;
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
   background: #40414F;
-
+  margin-bottom: 50px;
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -120,10 +120,8 @@ form {
 
 textarea {
   width: 100%;
-
   color: #fff;
   font-size: 18px;
-
   padding: 10px;
   background: transparent;
   border-radius: 5px;
